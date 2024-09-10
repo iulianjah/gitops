@@ -1,0 +1,9 @@
+argocd:
+  server:
+    extraArgs:
+    - --insecure
+  crds:
+    install: true
+    keep: false
+  dex:
+    enabled: false
